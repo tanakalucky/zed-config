@@ -37,5 +37,6 @@
     "show": "never"
   },
   "scroll_beyond_last_line": "off",
-  "relative_line_numbers": true
+  "relative_line_numbers": true,
+  "close_on_file_delete": true
 }
