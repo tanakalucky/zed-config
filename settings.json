@@ -12,7 +12,8 @@
   },
   "icon_theme": "Catppuccin Mocha",
   "project_panel": {
-    "hide_gitignore": false
+    "hide_gitignore": false,
+    "hide_root": true
   },
   "agent": {
     "default_model": {
@@ -38,5 +39,19 @@
   },
   "scroll_beyond_last_line": "off",
   "relative_line_numbers": true,
-  "close_on_file_delete": true
+  "close_on_file_delete": true,
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_diagnostics": "all"
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false
+  }
 }
