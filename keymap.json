@@ -54,5 +54,17 @@
       "ctrl-h": "pane::ActivateNextItem",
       "ctrl-l": "pane::ActivatePreviousItem"
     }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "o": "project_panel::NewDirectory",
+      "a": "project_panel::NewFile",
+      "r": "project_panel::Rename",
+      "x": "project_panel::Cut",
+      "y": "project_panel::Copy",
+      "p": "project_panel::Paste",
+      "d": "project_panel::Delete"
+    }
   }
 ]
