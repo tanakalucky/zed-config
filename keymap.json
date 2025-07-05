@@ -9,7 +9,8 @@
   {
     "bindings": {
       "ctrl-j": "menu::SelectNext",
-      "ctrl-k": "menu::SelectPrevious"
+      "ctrl-k": "menu::SelectPrevious",
+      "ctrl-l": "menu::Confirm"
     }
   },
   {
@@ -27,7 +28,8 @@
       "space s": "workspace::Save",
       "space t": "workspace::NewTerminal",
       "shift-j": "pane::ActivatePreviousItem",
-      "shift-k": "pane::ActivateNextItem"
+      "shift-k": "pane::ActivateNextItem",
+      "s s": "outline::Toggle"
     }
   },
   {
