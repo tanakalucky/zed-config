@@ -15,8 +15,10 @@
       "ctrl-k": "workspace::ActivatePaneDown",
       "space c": "pane::CloseActiveItem",
       "space b c": "pane::CloseInactiveItems",
+      "space b C": "pane::CloseAllItems",
       "space f": "file_finder::Toggle",
       "space o": "tab_switcher::Toggle",
+      "space s": "workspace::Save",
       "shift-j": "pane::ActivatePreviousItem",
       "shift-k": "pane::ActivateNextItem"
     }
