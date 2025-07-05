@@ -19,8 +19,17 @@
       "space f": "file_finder::Toggle",
       "space o": "tab_switcher::Toggle",
       "space s": "workspace::Save",
+      "space t": "workspace::NewTerminal",
       "shift-j": "pane::ActivatePreviousItem",
       "shift-k": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "context": "Editor && (showing_code_actions || showing_completions)",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-k": "editor::ContextMenuPrevious",
+      "ctrl-j": "editor::ContextMenuNext"
     }
   },
   {
@@ -54,7 +63,8 @@
     "context": "Terminal",
     "bindings": {
       "ctrl-h": "pane::ActivateNextItem",
-      "ctrl-l": "pane::ActivatePreviousItem"
+      "ctrl-l": "pane::ActivatePreviousItem",
+      "ctrl-space": "terminal::ToggleViMode"
     }
   },
   {
