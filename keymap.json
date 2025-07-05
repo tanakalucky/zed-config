@@ -7,6 +7,12 @@
 // from the command palette.
 [
   {
+    "bindings": {
+      "ctrl-j": "menu::SelectNext",
+      "ctrl-k": "menu::SelectPrevious"
+    }
+  },
+  {
     "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
