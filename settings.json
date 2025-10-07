@@ -54,5 +54,6 @@
     "breadcrumbs": false,
     "quick_actions": false,
     "selections_menu": false
-  }
+  },
+  "extend_comment_on_newline": false
 }
