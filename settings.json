@@ -47,7 +47,8 @@
   "tabs": {
     "file_icons": true,
     "git_status": true,
-    "show_diagnostics": "all"
+    "show_diagnostics": "all",
+    "activate_on_close": "left_neighbour"
   },
   "toolbar": {
     "breadcrumbs": false,
