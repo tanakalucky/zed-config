@@ -26,3 +26,12 @@ Zed エディタのユーザー設定リポジトリ（`~/.config/zed`）。主�
 - settings.json と keymap.json は **JSONC**（コメント付きJSON）形式
 - .zed/settings.json はプロジェクト固有のオーバーライド用（trailing comma許容のJSONC）
 - keymap.json の各エントリには `context` フィールドでスコープを限定できる
+
+## Development Workflow
+
+設定ファイル（`settings.json`, `keymap.json`, `.zed/settings.json`）を変更した後は、以下のフローに従うこと:
+
+1. `README.md` と `CLAUDE.md` の内容を確認し、変更内容との乖離がないかチェックする
+2. 乖離がある場合は、ドキュメントも合わせて更新する
+   - 例: キーバインドの追加/変更 → README のキーバインド表と CLAUDE.md の Key Configuration Decisions を更新
+   - 例: テーマやフォーマッターの変更 → 両ドキュメントの該当箇所を更新
