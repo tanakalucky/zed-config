@@ -17,8 +17,7 @@ Zed エディタのユーザー設定リポジトリ（`~/.config/zed`）。主�
 - **Pane移動** は `ctrl-h/j/k/l` で統一（Editor, Terminal, ProjectPanel, AgentPanel, EmptyPane 全てのコンテキストで設定）
 - **Insert mode脱出** は `j j`
 - **テーマ**: Catppuccin Mocha (No Italics)
-- **フォーマッター**: prettier を無効化し、全言語で **oxfmt** (oxc) を使用
-- **リンター**: **oxlint** を使用（typeAware有効、onType実行）
+- **フォーマッター**: prettier を無効化し、**oxfmt** (oxc) を使用（対象: JSON, JSONC, Markdown）
 - **Agent (AI機能)** は無効化されている
 
 ## File Format Notes

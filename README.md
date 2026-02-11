@@ -25,9 +25,8 @@ Zed エディタのユーザー設定リポジトリ (`~/.config/zed`)
 | 用途 | ツール |
 |---|---|
 | フォーマッター | [oxfmt](https://oxc.rs/) (prettier 無効化、保存時に実行) |
-| リンター | [oxlint](https://oxc.rs/) (typeAware 有効、入力時に実行) |
 
-対象言語: JavaScript, TypeScript, TSX, JSON, JSONC, CSS, HTML, Markdown, YAML
+対象言語: JSON, JSONC, Markdown
 
 ## キーバインド
 
