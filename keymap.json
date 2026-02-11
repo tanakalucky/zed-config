@@ -74,7 +74,11 @@
       "ctrl-l": "workspace::ActivatePaneRight",
       "ctrl-k": "workspace::ActivatePaneUp",
       "ctrl-j": "workspace::ActivatePaneDown",
-      "ctrl-space": "terminal::ToggleViMode"
+      "ctrl-space": "terminal::ToggleViMode",
+      "cmd-alt-h": "pane::SplitLeft",
+      "cmd-alt-l": "pane::SplitRight",
+      "cmd-alt-k": "pane::SplitUp",
+      "cmd-alt-j": "pane::SplitDown"
     }
   },
   {
