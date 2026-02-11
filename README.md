@@ -52,6 +52,15 @@ Zed エディタのユーザー設定リポジトリ (`~/.config/zed`)
 | `space b c` | 他のタブを閉じる |
 | `space b C` | 全タブを閉じる |
 
+### Pane Split (Terminal)
+
+| キー | アクション |
+|---|---|
+| `cmd-alt-h` | 左に分割 |
+| `cmd-alt-j` | 下に分割 |
+| `cmd-alt-k` | 上に分割 |
+| `cmd-alt-l` | 右に分割 |
+
 ### その他
 
 | キー | コンテキスト | アクション |
@@ -60,6 +69,7 @@ Zed エディタのユーザー設定リポジトリ (`~/.config/zed`)
 | `shift-j` / `shift-k` | Normal / Visual | 前 / 次のタブ |
 | `s s` | Normal / Visual | アウトライン切替 |
 | `ctrl-space` | Terminal | Vi mode 切替 |
+| `space f` | EmptyPane | ファイル検索 |
 
 ### メニュー操作
 

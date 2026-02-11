@@ -14,7 +14,7 @@ Zed エディタのユーザー設定リポジトリ（`~/.config/zed`）。主�
 
 - **Vim mode** が有効。キーバインドはVimスタイルで統一されている
 - **Leader key** は `space` を使用（`space f` でファイル検索、`space s` で保存など）
-- **Pane移動** は `ctrl-h/j/k/l` で統一（Editor, Terminal, ProjectPanel, EmptyPane 全てのコンテキストで設定）
+- **Pane移動** は `ctrl-h/j/k/l` で統一（Editor, Terminal, ProjectPanel, AgentPanel, EmptyPane 全てのコンテキストで設定）
 - **Insert mode脱出** は `j j`
 - **テーマ**: Catppuccin Mocha (No Italics)
 - **フォーマッター**: prettier を無効化し、全言語で **oxfmt** (oxc) を使用
