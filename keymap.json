@@ -18,10 +18,10 @@
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
-      "ctrl-j": "workspace::ActivatePaneUp",
-      "ctrl-k": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-j": "workspace::ActivatePaneDown",
       "space c": "pane::CloseActiveItem",
-      "space b c": "pane::CloseInactiveItems",
+      "space b c": "pane::CloseOtherItems",
       "space b C": "pane::CloseAllItems",
       "space f": "file_finder::Toggle",
       "space o": "tab_switcher::Toggle",
@@ -70,8 +70,10 @@
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-h": "pane::ActivateNextItem",
-      "ctrl-l": "pane::ActivatePreviousItem",
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-j": "workspace::ActivatePaneDown",
       "ctrl-space": "terminal::ToggleViMode"
     }
   },

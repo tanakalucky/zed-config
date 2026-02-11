@@ -7,29 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "auto_update_extensions": {
-    "biome": false
-  },
   "icon_theme": "Catppuccin Mocha",
   "project_panel": {
     "hide_gitignore": false,
     "hide_root": true
   },
-  "agent": {
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4"
-    },
-    "model_parameters": [],
-    "default_profile": "write",
-    "version": "2"
-  },
-  "ssh_connections": [
-    {
-      "host": "copilot.devpod",
-      "projects": []
-    }
-  ],
+  "agent": { "enabled": false },
   "vim_mode": true,
   "ui_font_size": 16,
   "buffer_font_size": 16,
@@ -38,7 +21,7 @@
     "show": "never"
   },
   "scroll_beyond_last_line": "off",
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "close_on_file_delete": true,
   "tab_bar": {
     "show_nav_history_buttons": false,
@@ -54,6 +37,5 @@
     "breadcrumbs": false,
     "quick_actions": false,
     "selections_menu": false
-  },
-  "extend_comment_on_newline": false
+  }
 }
