@@ -7,12 +7,41 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "format_on_save": "on",
+  "cli_default_open_behavior": "existing_window",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
   "icon_theme": "Catppuccin Mocha",
   "project_panel": {
+    "dock": "left",
     "hide_gitignore": false,
     "hide_root": true
   },
-  "agent": { "enabled": false },
+  "agent": { "dock": "right", "enabled": false },
   "vim_mode": true,
   "ui_font_size": 16,
   "buffer_font_size": 16,

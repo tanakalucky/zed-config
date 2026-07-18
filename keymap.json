@@ -29,7 +29,12 @@
       "space t": "workspace::NewTerminal",
       "shift-j": "pane::ActivatePreviousItem",
       "shift-k": "pane::ActivateNextItem",
-      "s s": "outline::Toggle"
+      "< <": "pane::SwapItemLeft",
+      "> >": "pane::SwapItemRight",
+      "s s": "outline::Toggle",
+      "space s v": "pane::SplitRight",
+      "cmd-alt-h": "pane::SplitAndMoveLeft",
+      "cmd-alt-l": "pane::SplitAndMoveRight"
     }
   },
   {
@@ -90,7 +95,8 @@
       "x": "project_panel::Cut",
       "y": "project_panel::Copy",
       "p": "project_panel::Paste",
-      "d": "project_panel::Delete"
+      "d": "project_panel::Delete",
+      "space": "project_panel::Open"
     }
   },
   {
